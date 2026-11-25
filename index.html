@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brincando de Ler — 3 baralhos de leitura para imprimir</title>
+<meta name="description" content="3 baralhos de leitura em PDF: a criança procura a palavra, descobre e confere sozinha no verso da carta. 10 minutos por dia, sem tela. Pagamento único de R$ 19,90.">
+<meta property="og:title" content="Tem uma palavra escondida dentro de CEBOLA. Seu filho acha?">
+<meta property="og:description" content="3 baralhos de leitura para imprimir hoje. Pagamento único de R$ 19,90.">
+<meta property="og:image" content="img/hero-cartas.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--azul:#2B6CB0;--laranja:#ED8936;--rosa:#D53F8C;--verde:#2F9E62;--tinta:#1F2933;--cinza:#5B6573;--creme:#FFF8EE;--linha:#F0E4D2;--branco:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Nunito,system-ui,sans-serif;color:var(--tinta);background:var(--creme);line-height:1.55;font-size:17px;padding-bottom:84px}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:"Baloo 2",Nunito,sans-serif;line-height:1.08;letter-spacing:-.01em}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.faixa{background:var(--azul);color:#fff;text-align:center;font-weight:800;font-size:14px;padding:9px 12px;letter-spacing:.02em}
+section{padding:64px 0}
+.eyebrow{display:inline-block;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--rosa);background:#FDE7F1;padding:6px 12px;border-radius:999px;margin-bottom:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--verde);color:#fff;font-weight:800;font-size:19px;text-decoration:none;padding:18px 28px;border-radius:16px;box-shadow:0 8px 0 #22764A,0 14px 28px rgba(47,158,98,.28);transition:transform .08s}
+.btn:active{transform:translateY(3px);box-shadow:0 4px 0 #22764A}
+.btn small{font-weight:700;opacity:.9;font-size:15px}
+.selos{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:18px;color:var(--cinza);font-weight:700;font-size:14.5px}
+.selos span::before{content:"✓ ";color:var(--verde);font-weight:900}
+/* hero */
+.hero{padding:44px 0 56px;background:radial-gradient(1200px 500px at 70% 0%,#FFE7CC 0%,transparent 60%)}
+.hero .grid{display:grid;gap:28px;align-items:center}
+.hero h1{font-size:clamp(36px,7vw,60px);font-weight:800}
+.hero h1 .k{color:var(--laranja)}
+.hero h1 .r{color:var(--rosa)}
+.hero p.sub{font-size:19px;color:var(--cinza);margin:16px 0 26px;max-width:560px}
+@media(min-width:900px){.hero .grid{grid-template-columns:1.05fr 1fr}}
+/* demo */
+.demo{background:#fff;border-top:1px solid var(--linha);border-bottom:1px solid var(--linha)}
+.demo .cards{display:flex;align-items:center;justify-content:center;gap:14px;margin:26px 0 10px}
+.demo .cards img{width:min(42vw,280px);filter:drop-shadow(0 14px 22px rgba(0,0,0,.15))}
+.seta{font-size:44px;color:var(--rosa);font-weight:900}
+.center{text-align:center}
+h2{font-size:clamp(30px,5vw,44px);font-weight:800}
+.lead{font-size:18.5px;color:var(--cinza);max-width:680px;margin:14px auto 0}
+/* dores */
+.dores ul{list-style:none;display:grid;gap:12px;margin:26px auto 0;max-width:640px}
+.dores li{background:#fff;border:1px solid var(--linha);border-radius:16px;padding:14px 18px;font-weight:700}
+.dores li::before{content:"😮‍💨 "}
+.virada{max-width:680px;margin:26px auto 0;font-size:19px;text-align:center}
+.virada b{color:var(--verde)}
+/* baralhos */
+.decks{display:grid;gap:22px;margin-top:34px}
+@media(min-width:860px){.decks{grid-template-columns:repeat(3,1fr)}}
+.deck{background:#fff;border-radius:22px;padding:22px;border:1px solid var(--linha);box-shadow:0 10px 26px rgba(31,41,51,.06)}
+.deck .imgs{display:flex;gap:10px;justify-content:center;margin-bottom:14px}
+.deck .imgs img{width:46%}
+.deck h3{font-size:26px}
+.deck .tag{font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.azul{color:var(--azul)}.lar{color:var(--laranja)}.ros{color:var(--rosa)}
+.deck p{color:var(--cinza);margin-top:6px}
+/* passos */
+.passos{display:grid;gap:16px;margin-top:30px}
+@media(min-width:860px){.passos{grid-template-columns:repeat(3,1fr)}}
+.passo{background:#fff;border-radius:20px;padding:22px;border:1px solid var(--linha)}
+.passo .n{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--azul);color:#fff;font-family:"Baloo 2";font-weight:800;font-size:22px;margin-bottom:10px}
+/* por que */
+.porque{display:grid;gap:14px;margin-top:28px}
+@media(min-width:860px){.porque{grid-template-columns:repeat(2,1fr)}}
+.porque div{background:#fff;border-radius:18px;padding:20px;border-left:6px solid var(--laranja)}
+.porque b{display:block;font-size:19px;margin-bottom:4px}
+/* para quem */
+.quem{display:grid;gap:14px;margin-top:26px}
+@media(min-width:860px){.quem{grid-template-columns:1fr 1fr}}
+.quem .sim,.quem .nao{border-radius:20px;padding:22px}
+.quem .sim{background:#E9F7EF}.quem .nao{background:#fff;border:1px dashed #D9C9B2}
+.quem ul{margin:10px 0 0 20px}
+/* oferta */
+.oferta{background:var(--tinta);color:#fff}
+.box{background:#fff;color:var(--tinta);border-radius:26px;padding:30px 22px;max-width:620px;margin:28px auto 0;box-shadow:0 20px 50px rgba(0,0,0,.35)}
+.box ul{list-style:none;display:grid;gap:10px;margin:8px 0 22px}
+.box li{display:flex;gap:10px;font-weight:700}
+.box li::before{content:"✔";color:var(--verde);font-weight:900}
+.preco{text-align:center;margin:8px 0 18px}
+.preco .v{font-family:"Baloo 2";font-size:64px;font-weight:800;color:var(--verde);line-height:1}
+.preco .v small{font-size:28px}
+.preco .d{color:var(--cinza);font-weight:700}
+.box .btn{width:100%}
+/* garantia */
+.garantia{display:flex;gap:18px;align-items:center;max-width:720px;margin:0 auto;background:#fff;border-radius:22px;padding:22px;border:1px solid var(--linha)}
+.selo{flex:0 0 96px;height:96px;border-radius:50%;background:var(--laranja);color:#fff;display:grid;place-items:center;text-align:center;font-family:"Baloo 2";font-weight:800;line-height:1;font-size:15px}
+.selo b{font-size:34px;display:block}
+/* faq */
+details{background:#fff;border:1px solid var(--linha);border-radius:16px;padding:16px 18px;margin-top:10px}
+summary{font-weight:800;cursor:pointer;list-style:none}
+summary::after{content:"+";float:right;color:var(--azul);font-weight:900}
+details[open] summary::after{content:"–"}
+details p{margin-top:10px;color:var(--cinza)}
+footer{padding:36px 0 30px;text-align:center;color:var(--cinza);font-size:14px}
+/* barra fixa */
+.barra{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--linha);box-shadow:0 -8px 24px rgba(0,0,0,.08);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:9;transform:translateY(110%);transition:transform .25s}
+.barra.on{transform:none}
+.barra .p{font-weight:800;line-height:1.1}
+.barra .p small{display:block;color:var(--cinza);font-weight:700;font-size:12.5px}
+.barra .btn{padding:13px 18px;font-size:16px;box-shadow:0 5px 0 #22764A}
+.apresenta{border-radius:24px;overflow:hidden;box-shadow:0 18px 40px rgba(31,41,51,.18);max-width:360px;margin:0 auto}
+</style>
+</head>
+<body>
+
+<div class="faixa">Material digital em PDF · você recebe na hora e imprime hoje</div>
+
+<header class="hero">
+  <div class="wrap grid">
+    <div>
+      <span class="eyebrow">Baralhos de leitura para imprimir</span>
+      <h1>Tem uma palavra escondida dentro de <span class="k">CEBOLA</span>. Seu filho <span class="r">acha?</span></h1>
+      <p class="sub">3 baralhos de leitura em que a criança procura a palavra, descobre e <b>confere sozinha no verso da carta</b>. Dez minutinhos por dia, sem tela — e quem pede pra jogar de novo é ela.</p>
+      <a class="btn cta" href="#oferta">Quero os 3 baralhos <small>R$ 19,90</small></a>
+      <div class="selos"><span>Pagamento único</span><span>PDF na hora</span><span>Garantia de 15 dias</span></div>
+    </div>
+    <img src="img/hero-cartas.png" alt="Cartas dos baralhos Brincando de Ler: bolo, gato, cebola" width="1100" height="760">
+  </div>
+</header>
+
+<section class="demo">
+  <div class="wrap center">
+    <span class="eyebrow">Veja em 5 segundos</span>
+    <h2>Procura… acha… vira a carta.</h2>
+    <div class="cards">
+      <img src="img/cebola.png" alt="Carta desafio: CEBOLA">
+      <span class="seta">→</span>
+      <img src="img/cebola-r.png" alt="Carta resposta: CE BOLA">
+    </div>
+    <p class="lead">Na frente, o desafio. No verso, a resposta: <b>BOLA</b> estava escondida dentro de <b>CEBOLA</b>. A criança testa a ideia dela e confere sozinha — sem você precisar corrigir.</p>
+  </div>
+</section>
+
+<section class="dores">
+  <div class="wrap center">
+    <h2>Ler não precisa ser lição de casa chata</h2>
+    <ul>
+      <li>Você senta pra ler junto e, em dois minutos, ela já quer levantar.</li>
+      <li>Ela decora a palavra do livro e trava quando a palavra muda de lugar.</li>
+      <li>Basta piscar que a mão já foi parar no celular ou no tablet.</li>
+    </ul>
+    <p class="virada">Criança não foge de desafio — foge de cobrança. Quando ler vira <b>jogo de descobrir</b>, ela mesma pede mais uma carta.</p>
+  </div>
+</section>
+
+<section style="background:#fff">
+  <div class="wrap center">
+    <span class="eyebrow">O que vem no kit</span>
+    <h2>3 jogos, 54 cartas ilustradas</h2>
+    <p class="lead">Cada baralho trabalha um jeito diferente de olhar para as sílabas. Todos com carta-desafio e carta-resposta.</p>
+    <div class="decks">
+      <div class="deck">
+        <div class="imgs"><img src="img/bolo.png" alt="BO LO"><img src="img/lobo.png" alt="LO BO"></div>
+        <div class="tag azul">Baralho 1</div><h3>Gira-Sílaba</h3>
+        <p>Vira a ordem das sílabas e nasce outra palavra: <b>BOLO</b> vira <b>LOBO</b>. A criança percebe que a palavra é feita de partes que se mexem.</p>
+      </div>
+      <div class="deck">
+        <div class="imgs"><img src="img/cebola.png" alt="CEBOLA"><img src="img/cebola-r.png" alt="CE BOLA"></div>
+        <div class="tag lar">Baralho 2</div><h3>Palavra Escondida</h3>
+        <p>Tem uma palavra dentro da outra: <b>CASA</b> no casaco, <b>PATO</b> no sapato. Treina o olhar atento para cada pedaço da palavra.</p>
+      </div>
+      <div class="deck">
+        <div class="imgs"><img src="img/gato-p.png" alt="4 pistas"><img src="img/gato.png" alt="GATO"></div>
+        <div class="tag ros">Baralho 3</div><h3>Detetive das Pistas</h3>
+        <p>Quatro pistas, uma palavra secreta: quantas sílabas, a primeira letra, o que é, com o que rima. Leitura e raciocínio juntos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <span class="eyebrow">Como funciona</span>
+    <h2>Hoje à noite vocês já jogam</h2>
+    <div class="passos">
+      <div class="passo"><div class="n">1</div><b>Baixe o PDF</b><p>Chega no seu e-mail logo depois do pagamento.</p></div>
+      <div class="passo"><div class="n">2</div><b>Imprima e recorte</b><p>Papel comum serve. Em papel mais grosso, as cartas duram mais.</p></div>
+      <div class="passo"><div class="n">3</div><b>Jogue 10 minutos</b><p>O guia "Como jogar em 5 minutos" mostra regras e variações.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff">
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">Por que funciona</span><h2>Brincadeira de verdade, com intenção</h2></div>
+    <div class="porque">
+      <div><b>Ela mesma confere</b>A resposta está no verso. A criança erra, vira, entende — sem esperar um adulto dizer se está certo.</div>
+      <div><b>Uma parte de cada vez</b>Cada jogo foca em olhar a palavra por pedaços: sílabas que trocam de lugar, palavras dentro de palavras, pistas.</div>
+      <div><b>Sessões curtas</b>Dez minutos rendem mais que uma hora de cobrança. Termina antes de cansar, e ela quer voltar.</div>
+      <div><b>Sem tela</b>Papel, mesa e alguém do lado. O tempo de jogo vira tempo junto.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <span class="eyebrow">Para quem é</span>
+    <h2>Feito para quem está aprendendo a ler</h2>
+    <div class="quem" style="text-align:left">
+      <div class="sim"><b>É para você se…</b><ul>
+        <li>sua criança está juntando sílabas e lendo as primeiras palavras (em geral, entre 5 e 8 anos);</li>
+        <li>você quer um jeito leve de praticar leitura em casa;</li>
+        <li>você é professora e quer jogos prontos para dupla, grupo ou reforço.</li></ul></div>
+      <div class="nao"><b>Não é…</b><ul>
+        <li>um curso completo de alfabetização;</li>
+        <li>material impresso enviado pelo correio (é PDF para você imprimir);</li>
+        <li>substituto do acompanhamento da escola ou de um profissional.</li></ul></div>
+    </div>
+    <div class="apresenta" style="margin-top:34px"><img src="img/apresentadora.jpg" alt="Mãe mostrando a carta CEBOLA" width="540" height="960"></div>
+  </div>
+</section>
+
+<section class="oferta" id="oferta">
+  <div class="wrap center">
+    <h2>Tudo o que você recebe</h2>
+    <div class="box">
+      <ul>
+        <li>Baralho Gira-Sílaba (14 cartas)</li>
+        <li>Baralho Palavra Escondida (20 cartas)</li>
+        <li>Baralho Detetive das Pistas (20 cartas)</li>
+        <li>Guia "Como jogar em 5 minutos"</li>
+        <li>PDF em A4, pronto para imprimir em casa ou na gráfica</li>
+        <li>Imprima quantas vezes quiser, para uso em casa ou na sua sala</li>
+      </ul>
+      <div class="preco"><div class="d">pagamento único</div><div class="v"><small>R$</small> 19,90</div><div class="d">sem mensalidade</div></div>
+      <a class="btn checkout" href="#" data-checkout>Quero meus 3 baralhos agora</a>
+      <div class="selos" style="justify-content:center"><span>Acesso imediato</span><span>Compra segura</span><span>Garantia de 15 dias</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="garantia">
+      <div class="selo"><div><b>15</b>DIAS</div></div>
+      <div><h3 style="font-size:26px">Garantia incondicional de 15 dias</h3><p style="color:var(--cinza);margin-top:6px">Imprima, jogue, teste com a sua criança. Se não fizer sentido para vocês, devolvemos 100% do valor dentro de 15 dias. Sem perguntas.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:10px">
+  <div class="wrap" style="max-width:760px">
+    <div class="center"><h2>Perguntas frequentes</h2></div>
+    <details><summary>Como eu recebo?</summary><p>Logo após a confirmação do pagamento, o link de download chega no seu e-mail. Se não aparecer em alguns minutos, olhe a caixa de spam ou fale com a gente pelo contato abaixo.</p></details>
+    <details><summary>É material impresso? Vai pelo correio?</summary><p>Não. É um arquivo PDF para você imprimir em casa, no trabalho ou na gráfica. Nada é enviado pelo correio.</p></details>
+    <details><summary>Preciso de impressora colorida?</summary><p>Não. Fica mais bonito colorido, mas funciona bem em preto e branco.</p></details>
+    <details><summary>Para qual idade?</summary><p>Para crianças em fase de alfabetização, que já conhecem as letras e estão juntando sílabas — em geral, de 5 a 8 anos. Se ela está começando, jogue junto e comece pelo Palavra Escondida.</p></details>
+    <details><summary>Posso usar com a minha turma?</summary><p>Pode. Você pode imprimir quantas vezes quiser para uso em casa ou na sua sala de aula. Só não é permitido revender ou compartilhar o arquivo.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem 15 dias de garantia. Se não fizer sentido, devolvemos todo o valor.</p></details>
+  </div>
+</section>
+
+<section class="center" style="padding-top:20px">
+  <div class="wrap">
+    <h2>Dez minutos hoje. Uma palavra descoberta por vez.</h2>
+    <p class="lead" style="margin-bottom:24px">Imprima ainda hoje e veja a sua criança procurando palavras escondidas por conta própria.</p>
+    <a class="btn cta" href="#oferta">Quero os 3 baralhos <small>R$ 19,90</small></a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Brincando de Ler · material pedagógico digital<br>[contato e CNPJ — preencher antes de anunciar]</div>
+</footer>
+
+<div class="barra" id="barra">
+  <div class="p">R$ 19,90<small>pagamento único · PDF na hora</small></div>
+  <a class="btn cta" href="#oferta">Quero agora</a>
+</div>
+
+<script>
+// Troque pela URL do seu checkout (Cakto, Kiwify, Hotmart...). Enquanto vazio, o botão leva para a oferta.
+const CHECKOUT_URL = "";
+document.querySelectorAll('[data-checkout]').forEach(a => { a.href = CHECKOUT_URL || '#oferta'; });
+const barra = document.getElementById('barra');
+const io = new IntersectionObserver(([e]) => barra.classList.toggle('on', !e.isIntersecting), {threshold: 0});
+io.observe(document.querySelector('.hero'));
+</script>
+</body>
+</html>
